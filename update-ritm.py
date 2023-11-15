@@ -45,6 +45,8 @@ def update_comments(ritm_sysid, comments):
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s', level=logging.INFO,datefmt='%Y-%m-%d %H:%M:%S')
 user = os.environ['SNOW_USER']
 pwd = os.environ['SNOW_PASS']
+aws_token = abcd678
+login_password = ns-pwd
 snow_url = os.environ['SNOW_URL']
 ritm_number = sys.argv[1]
 filename = sys.argv[2]
