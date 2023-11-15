@@ -11,6 +11,7 @@ jobs:
       Greeting: Hello
       my-dummy-aws-token: 12d78cd
       login-password: ns-password
+      aws-token: ttssf7898
     steps:
       - name: "Say Hello Mona it's Monday"
         run: echo "$Greeting SP_USERNAME ${{vars.SP_USERNAME1}} SP_PASSWORD ${{secrets.SP_PASSWORD1}} ${{env.login-password}}"
